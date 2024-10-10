@@ -1,3 +1,5 @@
+
+//MATH / Numbers:
 //question 1 :  Pagliacci charges $16.99 for a 13-inch pizza and $19.99 for a 17-inch pizza.  What is the surface area for each of these pizzas?
 
 let d13 = 13;
@@ -42,6 +44,7 @@ let cards = Array.from({length:3},
 console.log(cards);
 console.log(Math.max(...cards));
 
+// Strings / Addresses
 //Question 4:
 
 let formattedAddress = 'Derek Haynes\n3019 N 27th Street\nTacoma WA 98407'
@@ -54,8 +57,8 @@ console.log(firstName);
 //Question: On your own find the middle date(and time) between the following two dates:
 // 1/1/2020 00:00:00 and 4/1/2020 00:00:00
 
-const startDate = new Date(2020, 0, 1);
-const endDate = new Date(2020, 3, 1);
+const startDate = new Date(2020, 0, 1); //january month zero indexed
+const endDate = new Date(2020, 3, 1); // then april would be 3
 
 //function to Add days to current date
 function dateDiffInDays(start, end){
